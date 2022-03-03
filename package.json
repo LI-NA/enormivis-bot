@@ -1,0 +1,37 @@
+{
+  "name": "enormivis-bot",
+  "version": "1.0.0",
+  "description": "이모티콘한테 커~져라! 써주는 봇이에요!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LI-NA/enormivis-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LI-NA/enormivis-bot/issues"
+  },
+  "homepage": "https://github.com/LI-NA/enormivis-bot#readme",
+  "dependencies": {
+    "@discordjs/rest": "^0.3.0",
+    "discord-api-types": "^0.27.2",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "universal-analytics": "^0.5.3"
+  },
+  "optionalDependencies": {
+    "bufferutil": "^4.0.6",
+    "erlpack": "github:discord/erlpack",
+    "utf-8-validate": "^5.0.8",
+    "zlib-sync": "^0.1.7"
+  },
+  "devDependencies": {
+    "@types/universal-analytics": "^0.4.5"
+  }
+}
